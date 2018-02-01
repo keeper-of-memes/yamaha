@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Client name="Yamaha CRX-N470">
+  <Identification>
+    <Header name="User-Agent" substring="(CRX-N470)" />
+  </Identification>
+  <DirectPlayProfiles>
+    <MusicProfile container="mp3" codec="mp2,mp3" />
+    <MusicProfile container="mp4" codec="aac,alac" />
+    <MusicProfile container="flac" codec="flac" />
+  </DirectPlayProfiles>
+  
+  <DlnaMediaProfiles>
+    <DlnaMusicProfile container="mp4" mimeType="audio/m4a" />
+  </DlnaMediaProfiles>
+</Client>
