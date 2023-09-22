@@ -3,11 +3,12 @@
   <Identification>
     <Header name="User-Agent" substring="Network_Module/1.0 (WXC-50) UPnP/1.0 DLNADOC/1.50" />
     <DeviceDescription type="schemas-upnp-org:device:MediaRenderer:1"> 
-    <FriendlyName substring="Sitting Room"/> 
-    <ModelName substring="MusicCastWXC-50"/> 
-    <ModelNumber substring="50"/> 
-    <Manufacturer substring="Yamaha Corporation"/> 
-    <ManufacturerUrl substring="http://www.yamaha.com/"/> 
+      <FriendlyName substring="Sitting Room"/> 
+      <ModelName substring="MusicCastWXC-50"/> 
+      <ModelNumber substring="50"/> 
+      <Manufacturer substring="Yamaha Corporation"/> 
+      <ManufacturerUrl substring="http://www.yamaha.com/"/> 
+    </DeviceDescription
   </Identification>
   <DirectPlayProfiles>
     <MusicProfile container="mp3" codec="mp2,mp3" />
