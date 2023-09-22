@@ -14,14 +14,16 @@
 		<MusicProfile container="mp3" codec="mp2,mp3" />
 		<MusicProfile container="mp4" codec="aac,alac" />
 		<MusicProfile container="flac" codec="flac" />
+		<MusicProfile container="wma" codec="wmav2" />
+ 		<MusicProfile container="wav" codec="flac,pcm" />
   	</DirectPlayProfiles>
  	<DlnaMediaProfiles>
-		<DlnaMusicProfile container="mp4" mimeType="audio/m4a">
-			<Bitrate>0</Bitrate> <!-- Set to 0 to remove the bitrate limitation -->
-			<AudioCodec>alac</AudioCodec> <!-- Set the audio codec to ALAC -->
-			<SampleRate>96000</SampleRate> <!-- Set the sample rate to 96 kHz -->
-			<BitDepth>24</BitDepth> <!-- Set the bit depth to 24 bits -->
-			<Gapless>true</Gapless> <!-- Enable gapless playback -->
-    		</DlnaMusicProfile>
-	</DlnaMediaProfiles>
+		<DlnaMusicProfile container="mp4" mimeType="audio/m4a" />
+	  <CodecProfiles>
+		<VideoAudioCodec name="mp3">
+      		<Limitations>
+        	<UpperBound name="audio.channels" value="2" />
+      		</Limitations>
+		
+    </MusicCodec>
 </Client>
