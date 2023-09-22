@@ -16,6 +16,12 @@
 		<MusicProfile container="flac" codec="flac" />
   	</DirectPlayProfiles>
  	<DlnaMediaProfiles>
-		<DlnaMusicProfile container="mp4" mimeType="audio/m4a" />
+		<DlnaMusicProfile container="mp4" mimeType="audio/m4a">
+			<Bitrate>0</Bitrate> <!-- Set to 0 to remove the bitrate limitation -->
+			<AudioCodec>alac</AudioCodec> <!-- Set the audio codec to ALAC -->
+			<SampleRate>96000</SampleRate> <!-- Set the sample rate to 96 kHz -->
+			<BitDepth>24</BitDepth> <!-- Set the bit depth to 24 bits -->
+			<Gapless>true</Gapless> <!-- Enable gapless playback -->
+    		</DlnaMusicProfile>
 	</DlnaMediaProfiles>
 </Client>
