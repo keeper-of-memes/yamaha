@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Client name="Yamaha WXC-50">
   <Identification>
-    <Header name="User-Agent" substring="Network_Module/1.0 (WXC-50) UPnP/1.0 DLNADOC/1.50" />
-    <deviceType>urn:schemas-upnp-org:device:MediaRenderer:1</deviceType>
-    <manufacturer>Yamaha Corporation</manufacturer>
-    <manufacturerURL>http://www.yamaha.com/</manufacturerURL>
-    <modelName>MusicCastWXC-50</modelName>
-    <modelNumber>50</modelNumber>
-    <UDN>uuid:9ab0c000-f668-11de-9976-00a0dedc5293</UDN>
+    <DeviceDescription type="schemas-upnp-org:device:MediaRenderer:1"> 
+    <FriendlyName substring="Sitting Room"/> 
+    <ModelName substring="MusicCastWXC-50"/> 
+    <ModelNumber substring="50"/> 
+    <Manufacturer substring="Yamaha Corporation"/> 
+    <ManufacturerUrl substring="http://www.yamaha.com/"/> 
   </Identification>
   <DirectPlayProfiles>
     <MusicProfile container="mp3" codec="mp2,mp3" />
