@@ -8,7 +8,7 @@
 			<ModelNumber substring="50"/> 
 			<Manufacturer substring="Yamaha Corporation"/> 
 			<ManufacturerUrl substring="http://www.yamaha.com/"/> 
-		</DeviceDescription
+		</DeviceDescription>
   	</Identification>
 	<DirectPlayProfiles>
 		<MusicProfile container="mp3" codec="mp2,mp3" />
