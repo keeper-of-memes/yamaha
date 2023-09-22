@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Client name="Yamaha WXC-50">
   <Identification>
-    <Header name="User-Agent" substring="(WXC-50)" />
+    <Header name="User-Agent" substring="Network_Module/1.0 (WXC-50) UPnP/1.0 DLNADOC/1.50" />
   </Identification>
   <DirectPlayProfiles>
     <MusicProfile container="mp3" codec="mp2,mp3" />
